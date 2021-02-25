@@ -1,4 +1,4 @@
-import first_greedy
-N = int(input())
-answer = first_greedy.solution(N)
+import until_not_one
+n, k = map(int, input().split())
+answer = until_not_one.solution(n, k)
 print(answer)
